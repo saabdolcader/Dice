@@ -1,4 +1,5 @@
 Die bob;
+int mySum = 0;
 void setup()
 {
   noLoop();
@@ -23,7 +24,6 @@ void mousePressed()
   redraw();
   mySum = 0;
 }
-int mySum = 0;
 class Die //models one single dice cube
 {
   float mySize, myX, myY, myRoll;
