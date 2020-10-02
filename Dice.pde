@@ -33,15 +33,11 @@ class Die //models one single dice cube
     mySize = 60;
     myX = x;
     myY = y; 
-    //myOtherX = 165;
-    //myOtherY = 135;
-    //otherX = 150;
   }
   void roll()
   {
     myRoll = (int)(Math.random()*6 + 1);
     mySum = (int)(mySum + myRoll);
-    System.out.println(mySum);
   }
   void show()
   {
